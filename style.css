@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: #e9e9e9;
+  font-family: "Roboto Mono", monospace;
+  line-height: 24px;
+  color: rgb(153, 64, 153);
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 1px #80808052;
+  padding: 20px;
+  margin: 24px;
+}
+
+.card p {
+  margin: 10px 32px;
+}
+
+.card button {
+  background-color: purple;
+  color: white;
+  font-weight: bolder;
+  padding: 12px 20px;
+  border: 1px solid purple;
+  border-radius: 10px;
+}
+
+.card button:hover {
+  background-color: #530153;
+  cursor: pointer;
+}
+
+h1, h2, h3 {
+  color: purple;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+a i{
+  color: purple;
+  font-size: 32px;
+  margin: 12px 8px;
+}
+
+i:hover {
+  color: #575757;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
